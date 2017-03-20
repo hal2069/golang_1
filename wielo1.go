@@ -21,3 +21,6 @@ func fillChWithSmth(ch chan time.Time) {
     time.Sleep(10 * time.Second)
     ch <- time.Now()
 }
+
+func test(){
+}
